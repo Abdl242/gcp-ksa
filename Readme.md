@@ -41,7 +41,7 @@ In the Kingdom of Saudi Arabia (KSA), Google Cloud Platform (GCP) is handled thr
 
 8. **Access Your Dashboard**
    - Once done, return to the previous page and open your CNTXT dashboard. It should resemble the reference image provided.
-   ![Payment details]("images/9 copy.png")
+   ![Payment details](images/dashboard.png)
 
 
 9. **Migrate to Le Wagon’s Billing Account**
