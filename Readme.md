@@ -6,6 +6,8 @@ In the Kingdom of Saudi Arabia (KSA), Google Cloud Platform (GCP) is handled thr
 
 1. **Login to Cloud Console**
    - Go to [cloud.cntxt.com](https://cloud.cntxt.com) and log in using the Google Cloud account associated with the Gmail address you are using for this bootcamp.
+   ![Cloud CNTXT](images/1.png)
+
 
 2. **Fill in Required Information**
    - Fill in all the necessary information as shown in the provided reference image. Ensure that all the information is accurate and correct.
