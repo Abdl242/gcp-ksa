@@ -60,6 +60,33 @@ In the Kingdom of Saudi Arabia (KSA), Google Cloud Platform (GCP) is handled thr
 11. **Manage Your Credits**
     - Once the migration is complete, you are good to go! Set up alerts on your project to monitor credits and avoid any unexpected charges.
 
+
+Once it's all done, please inform your teacher or TA.
+
+### Configure Cloud sdk
+
+- Authenticate the `gcloud` CLI with the google account you used for GCP
+
+```bash
+gcloud auth login
+```
+
+- Login to your Google account on the new tab opened in your web browser
+- List your active account and check your email address you used for GCP is present
+```bash
+gcloud auth list
+```
+- Set your current project (replace `PROJECT_ID` with the `ID` of your project, e.g. `wagon-bootcamp-123456`)
+```bash
+gcloud config set project PROJECT_ID
+```
+- List your active account and current project and check your project is present
+```bash
+gcloud config list
+```
+
+
+
 ---
 
 ### Create a service account key 🔑
