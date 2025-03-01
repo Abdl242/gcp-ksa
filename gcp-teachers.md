@@ -6,7 +6,9 @@ In the Kingdom of Saudi Arabia (KSA), Google Cloud Platform (GCP) is handled by 
 
 ## **Increase quotas form**
 
-In order to host as mluch student on one billing account, BM are asked to fill the related for to ask an increase to 25-50 project.
+In order to host as mluch student on one billing account, BM are asked to fill the [related form](https://support.google.com/code/contact/billing_quota_increase) to ask an increase to 25-50 project.
+
+
 
 It will ask the following information:
 - First and last name
