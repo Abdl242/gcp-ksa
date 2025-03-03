@@ -1,6 +1,10 @@
 # GCP Account Setup Guide (KSA Context)
 
-In the Kingdom of Saudi Arabia (KSA), Google Cloud Platform (GCP) is handled by a tyranious company who let no space for people to use GCP freely ☭ . Due to the unavailability of the free trial in the kingdom, students will be hosted on Lewagon's billing account allowing them to enjoy GCP products responsibly.
+In the Kingdom of Saudi Arabia (KSA), Google Cloud Platform (GCP) is handled by a third-party company.
+
+Regarding their policies, it's not possible to create individual account free of charges.
+
+The steps below will allow students to be host on external free trial account and enjoy amazing GCP products.
 
 
 # Students instructions
