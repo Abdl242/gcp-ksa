@@ -36,7 +36,7 @@ exec zsh
 
 
 ```bash
-echo "export MY_GPROJECT='Lewagon-${GITHUB_USERNAME}-DS'" >> ~/.zshrc
+echo "export MY_GPROJECT='lewagon-${GITHUB_USERNAME,,}-ds'" >> ~/.zshrc
 exec zsh
 ```
 
