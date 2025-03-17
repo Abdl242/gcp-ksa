@@ -21,10 +21,33 @@ After that, act depeding of your option (CLI should be the quickest one)
 
 ### CLI (The easiest way)
 
-First, we will save the Billing account ID provided by Le Wagon to your environment. Be sure to change accordingly the part of the code with <BILLING_ACCOUNT> 👇
+Make sure you are connected to GCP. Run the following command and follow the steps:
 
 ```bash
-echo "export BILLING_ACCOUNT='<BILLING_ACCOUNT>'" >> ~/.zshrc
+gcloud auth login
+```
+
+Check as well if your github account is saved in zshrc by running :
+
+```bash
+echo ${GITHUB_USERNAME}
+```
+
+<details>
+<summary>❌ Untoggle if it doesn't return anything and run the command</summary>
+
+```bash
+GITHUB_USERNAME=$(gh api user | jq -r .login)
+echo $GITHUB_USERNAME
+```
+
+</details>
+<br>
+
+First, we will save the Billing account ID provided by Le Wagon to your environment. Be sure to change accordingly the part of the code with <BILLING_ACCOUNT_ID> 👇
+
+```bash
+echo "export BILLING_ACCOUNT='BILLING_ACCOUNT_ID'" >> ~/.zshrc
 ```
 
 Then :
@@ -36,7 +59,7 @@ exec zsh
 
 
 ```bash
-echo "export MY_GPROJECT='lewagon-${GITHUB_USERNAME,,}-ds'" >> ~/.zshrc
+echo "export MY_GPROJECT='lewagon-${(L)GITHUB_USERNAME}-ds'" >> ~/.zshrc
 exec zsh
 ```
 
