@@ -37,8 +37,9 @@ echo ${GITHUB_USERNAME}
 <summary>❌ Untoggle if it doesn't return anything and run the command</summary>
 
 ```bash
-GITHUB_USERNAME=$(gh api user | jq -r .login)
-echo $GITHUB_USERNAME
+
+echo "export GITHUB_USERNAME='$(gh api user | jq -r .login)'" >> ~/.zshrc && exec zsh
+
 ```
 
 </details>
