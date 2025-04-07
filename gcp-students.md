@@ -95,34 +95,6 @@ gcloud billing budgets create \
 
 ❌ If an error appeared, call the BM / TA 🙋‍♂️
 
-### GCP Website
-
-
-
-If you have done already the steps through CLI, just skip that part. ⏩
-<details>
-<summary>👉&nbsp;&nbsp;Setup using website 👈</summary>
-Select through the hamburger menu at the top right the billing section.
-
-![Step 1](images/b3.png)
-
-Once you have clicked, you should arrived on this page with two options
-
-Select link a billing account.
-
-![Step 2](images/b2.png)
-
-Finally, select the billing account provided by the BM to you.
-
-![Step 3](images/b1.png)
-
-If any questions or doesn't seem to work, raise a ticket 🙋‍♂️
-
-Please check with your BM the whole setup ✔️
-
- </details>
-
-
 
 ## Service accounts and last part of set up
 
