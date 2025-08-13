@@ -159,3 +159,7 @@ Check your project is set up and has a billing account :
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/Abdl242/gcp-ksa/refs/heads/master/check-gcp.sh)
 ```
+
+If at this point you have an error ❌, call a TA. 🙋‍♂️
+
+Otherwise, congratulation ! You're all set ! 🎉🎉
