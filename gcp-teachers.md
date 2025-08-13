@@ -8,26 +8,6 @@ The steps below will allow students to be host on external free trial account an
 
 # Teachers Instructions
 
-## **Increase quotas form**
-
-In order to host as mluch student on one billing account, BM are asked to fill the [related form](https://support.google.com/code/contact/billing_quota_increase) to ask an increase to 25-50 project.
-
-
-
-It will ask the following information:
-- First and last name
-- Company Name (LW or Lewagon doesn't matter)
-- Email adresses (students one, if the information is missing, it's possible to just give some or write "TBC")
-- Number of requested projects (25-50)
-Which kind of services ( both free and paid services)
-- Any other things we need to be aware of to help us understand the request? (Just explain the situation, don't forget to mention it's for academical purposes)
-
-
-
-
-![Quotas page](images/quotas.png)
-
-
 ## **Billing account Management**
 
 From the hamburger menu, go to Billing section. Once you landed the page, click on manage billing account.
@@ -36,10 +16,30 @@ From the hamburger menu, go to Billing section. Once you landed the page, click 
 
 
 
-
 ## **Add student on the billing**
 
 Once you have selected you billing account, we'll add students and give them the role of billing account administrator (that will allow them to link their iwn project to this billing account).
 
+The BM / PM should provide you a gsheet with student's name, emails and related billing account ID.
+
 ![Add students](images/mg-billingaccount.png)
 ![Roles setting](images/roles.png)
+
+
+## On Kitt
+
+Please send the message below on the slack channel of your batch (You can change as you wish)
+
+Hello @channel,
+
+Next week we will start MLOps week on Google Cloud Platform  A.K.A GCP :gcp:
+
+For you to be able to use GCP services, you need to follow the step below :point_down:
+
+Student guide
+
+To make it simple, you'll create a project through CLI command and link it to the one billing account provided by Lewagon.
+
+To know which billing account to use, please check the one allocated to you on this gsheet :google-sheets-intensifies:
+
+Let me know through tickets if you face any issue or need further explanations. :hand:
