@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MY_GPROJECT="your-project-id"  # Set your expected project ID here
+
 
 current_project=$(gcloud config get-value project 2>/dev/null)
 
