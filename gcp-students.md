@@ -11,15 +11,14 @@ The steps below will allow students to be host on external free trial account an
 
 ## Creating and setting project & billing account
 
-Students have actually two choices for the setup, either through the console, either through google cloud.
 
 Visit the website console.cloud.google.com and do as the picture below.
 
 ![GCP Website](images/gp.png)
 
-After that, act depeding of your option (CLI should be the quickest one)
 
-### CLI (The easiest way)
+
+### CLI
 
 Make sure you are connected to GCP. Run the following command and follow the steps:
 

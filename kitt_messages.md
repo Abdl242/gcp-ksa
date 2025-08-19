@@ -41,3 +41,30 @@ If it goes through, you're good to go :white_check_mark:
 You can check on bigquery if you want to see it with your own eyes :eyes:
 
 (should be integrated to the guide)
+
+## Create gcp for projects
+
+```bash
+# Create project
+
+export PROJECT_GCP="YOUR-PROJECT@"
+
+gcloud projects create "${PROJECT_GCP}"
+
+gcloud config set project "${PROJECT_GCP}"
+
+# Set billing account
+gcloud billing projects link "${PROJECT_GCP}" --billing-account ${BILLING_ACCOUNT}
+
+# Set budget alerts per 1$
+gcloud billing budgets create \
+	--billing-account="${BILLING_ACCOUNT}" \
+	--display-name="${PROJECT_GCP}" \
+	--filter-projects=projects/"${PROJECT_GCP}" \
+	--budget-amount=10 \
+	--threshold-rule=percent=0.20 \
+	--threshold-rule=percent=0.40 \
+	--threshold-rule=percent=0.60 \
+	--threshold-rule=percent=0.80
+
+```
