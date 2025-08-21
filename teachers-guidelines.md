@@ -36,7 +36,7 @@ Day 1 :
     >
 
 —> Ask the PM to prepare the repartition / account (LW staff / “freelance settuper” prepared accounts with quotas already attributed by google and company card setup in billing profil. Please reach out to your PM to ask for the accounts you can use and where do you have to add your students)
-template
+[template](https://docs.google.com/spreadsheets/d/1gWyCui6AtHaAe1yygVGOOV50C4Y969tXT08M4s8MK4A/edit?gid=1578747303#gid=1578747303)
 
 ## **W3**
 
