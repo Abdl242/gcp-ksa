@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get the result and extract unit file/service names
-output=$(systemctl list-units --type=service --no-pager | grep wsl)
+output=$(sudo find /etc/systemd /lib/systemd -name '*wsl-pro*')
 
 # Extract possible file/service names (1st column, which is typically 'wsl-*.service')
 service_files=$(echo "$output" | awk '{print $1}')
